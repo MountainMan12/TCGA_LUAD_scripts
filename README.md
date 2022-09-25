@@ -1,5 +1,17 @@
 # Foundational Principles of Data Analysis using TCGA Data
-#### In collaboration with [TechMedBuddy](https://techmedbuddy.com/)
+### In collaboration with [TechMedBuddy](https://techmedbuddy.com/)
+
+## Setting up your R environment
+
+### Set up Bioconductor on R
+`install.packages("BiocManager")`
+
+#### Also some other dependencies from CRAN
+`install.packages("ggplot2")`
+
+### Set up TCGABiolinks and dependencies from BioC
+`BiocManager::install(c("TCGAbiolinks", "SummarizedExperiment", "EDASeq", "limma", "DESeq2" , "plyr")`
+
 
 ## Important Reading Material for topics discussed in the lecture:
 - [Summarizing and correcting the GC content bias in high-throughput sequencing](https://academic.oup.com/nar/article/40/10/e72/2411059)
@@ -18,4 +30,7 @@
 ## Useful online courses to try out
 - [Statistical Inference and Modeling for High-throughput Experiments](https://learning.edx.org/course/course-v1:HarvardX+PH525.3x+2T2018/home)
 
+### For queries, contact
+- pawan12394@gmail.com
+- https://www.linkedin.com/in/pawan-verma-27b793a7/
 
